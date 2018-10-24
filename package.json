@@ -1,5 +1,5 @@
 {
-  "name": "node-red-project",
-  "description": "A Node-RED Project",
-  "version": "0.0.1"
+  "name": "my-am-service",
+  "description": "Account Management Service with Node-RED Project",
+  "version": "0.1.0"
 }
