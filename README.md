@@ -1,4 +1,4 @@
-# Microclimate NodeRed Template
+# My Account Management Service
 ## RUN
 ```
 docker build
