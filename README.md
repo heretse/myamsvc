@@ -1,1 +1,5 @@
-# microclimateNodeRedTemplate
+# Microclimate NodeRed Template
+## RUN
+```
+docker build
+```

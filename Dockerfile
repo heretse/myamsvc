@@ -1,5 +1,15 @@
 FROM nodered/node-red-docker
 
+RUN npm install --save node-red-contrib-crypto-js
+
+RUN npm install --save node-red-contrib-nr-ldapauth
+
+RUN npm install --save node-red-contrib-redis
+
+RUN npm install --save node-red-node-cf-cloudant
+
+RUN npm install --save node-red-node-mysql
+
 WORKDIR /data
 
 COPY ./flows.json flows.json
